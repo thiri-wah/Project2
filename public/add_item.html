@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Item</title>
+</head>
+<body>
+    <h2>Add New Item</h2>
+    <form id="insertForm" method="post" onsubmit="addItemData();return false">
+        <label for="name_tb">Name:</label><br>
+        <input type="text" id="name_tb" name="name" maxlength="100"required><br>
+        <label for="price_tb">Price:</label><br>
+        <input type="number" id="price_tb" name="price"><br>
+        <label for="image_url_tb">Image URL:</label><br>
+        <input type="text" id="image_url_tb" name="image_url" maxlength="255"><br>
+        <label for="availability_tb">Availability:</label><br>
+        <input type="number" id="availability_tb" name="availability"><br>
+        <label for="quantity_tb">Quantity:</label><br>
+        <input type="number" id="quantity_tb" name="quantity"><br>
+        <button type="submit">Confirm</button>
+    </form>
+</body>
+</html>

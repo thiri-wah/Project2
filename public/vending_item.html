@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Items</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/vending_machine.js"></script>
+</head>
+<body onload="loadVendingItemData()">
+    <div class="lock" style="z-index: 1000;">
+        <div class="header">
+            <div>
+                <img id="header_img1" src="images/Temasek-Poly-Logo-removebg-preview.png" alt="TP logo">
+            </div>
+        </div>
+    </div>
+    <div id="dynamicVendingItemDataList">
+        <!-- <div id="item">
+            <div class="eachItem">
+                <div>
+                    <img src="images/oreo.jpg" alt="Oreo" class="item_images">
+                </div> 
+            </div>
+            <div class="eachItem">
+                <div>
+                    <img src="images/snickers.png" alt="Snickers" class="item_images">
+                </div>
+            </div>
+            <div class="eachItem">
+                <div>
+                    <img src="images/M&M.png" alt="M&M" class="item_images">
+                </div>
+            </div>
+            <div class="eachItem">
+                <div>
+                    <img src="images/skittles.png" alt="skittles" class="item_images">
+                </div>
+            </div>
+        </div> -->
+    <!-- <div id="footerButton">
+        <button id="addNewItem">Add Item</button>
+    </div> -->
+    </div>
+    <footer id="footer_button">
+        <button type='button' onclick="goToAddNewItem(this)" restId='${arrayOfVendingItem[0].vending_machine_id}'>Add Item</button>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap'); /*Poppings font from google font */
+body{
+    font-family: "Wix Madefor Text", sans-serif;
+    margin: 0;
+}
+.lock{
+    overflow: hidden;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+#header_img1{
+    width: 150px;
+    float: left;
+}
+
+#machine{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 30% 30%;
+    justify-content: center;
+    gap: 30px;
+}
+
+.eachMachine{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px 2px #bdbcbc;
+    padding: 0 20px 20px 20px;
+}
+
+.eachMachine > div{
+    text-align: center;
+}
+
+.eachMachine > div > p{
+    text-align: left;
+}
+
+.vending_image{
+    width: 200px;
+    height: 300px;
+}
+
+.vendingMachine{
+    width: 200px;
+    height: 300px;
+}
+
+.buttonToViewItem{
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "Wix Madefor Text", sans-serif;
+}
+
+#item{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: left;
+    gap: 20px;
+    margin: 100px 20px 0 20px;
+}
+
+.eachItem{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px 2px #bdbcbc;
+    padding: 0 20px 20px 20px;
+}
+
+.eachItem > div{
+    text-align: center;
+}
+
+.eachItem > div > p{
+    text-align: left;
+}
+
+.item_images{
+    width: 180px;
+    height: 180px;
+}
+
+.buttonToEditItem{
+    padding: 10px 25px 10px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "Wix Madefor Text", sans-serif;
+    transition-duration: 0.4s;
+}
+
+.buttonToEditItem:hover{
+    background-color: rgb(107, 107, 107);
+    color: white;
+}
+
+.itemButton{
+    padding-top: 20px;
+}
+
+#addNewItem{
+    padding: 10px 25px 10px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "Wix Madefor Text", sans-serif;
+    transition-duration: 0.4s;
+    /* display: flex;
+    justify-content: flex-end; */
+}
+
+#footerButton{
+    /* position: fixed;
+    bottom: 0;
+    left: 0; */
+    width: 100%;
+    height: 70px; /* Footer height */
+    background-color: rgb(107, 107, 107);
+    color: white;
+    text-align: center;
+}
+

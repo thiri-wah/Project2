@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diplay All Vending Machines</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/vending_machine.js"></script>
+</head>
+<body onload="loadVendingMachineData()">
+    <div class="lock" style="z-index: 1000;">
+        <div class="header">
+            <div>
+                <img id="header_img1" src="images/Temasek-Poly-Logo-removebg-preview.png" alt="TP logo">
+            </div>
+        </div>
+    </div>
+    <div id="dynamicVendingMachineDataList">
+        <div id="machine">
+            <div class="eachMachine">
+                <div>
+                    <h4>Milano Vending Machine</h4>
+                    <img src="images/machine1.png" alt="Machine 1">
+                </div> 
+            </div>
+            <div class="eachMachine">
+                <div>
+                    <h4>Apex Vendings</h4>
+                    <img src="images/machine2.jpg" alt="Machine 2">
+                </div>
+            </div>
+            <div class="eachMachine">
+                <div>
+                    <h4>Apex Vendings</h4>
+                    <img src="images/machine3.jpg" alt="Machine 3">
+                </div>
+            </div>
+            <div class="eachMachine">
+                <div>
+                    <h4>Suntory</h4>
+                    <img src="images/machine4.jpg" alt="Machine 4">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
